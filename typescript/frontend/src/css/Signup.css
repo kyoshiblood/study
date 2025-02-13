@@ -1,0 +1,46 @@
+#signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 1.5rem;
+
+    gap: 0.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.inputs input {
+    width: 100%;
+    padding: 0.4rem;
+}
+
+button {
+    background-color: black;
+    color: white;
+    
+    padding: 0.4rem;
+
+    border: 0;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #343433;
+    color: white;
+}
